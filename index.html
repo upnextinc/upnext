@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Up Next</title>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+		<meta name="description" content="See your day at a glance from your menu bar. Integrated with Google Meet so you can join meetings with ⌘J. For MacOS 10.12 and higher." />
+		<meta name="keywords" content="macos, meetings, menu bar, reminder, calendar, time management" />
+		<meta name="author" content="Ellen Li" />
+		<meta property="og:title" content="Up Next">
+		<meta property="og:description" content="See your day at a glance from your menu bar. Integrated with Google Meet so you can join meetings with ⌘J. For MacOS 10.12 and higher.">
+		<!-- <meta property="og:image" content="http://ellen.li/up-next/assets/preview.png"> -->
+		<meta property="og:url" content="http://ellen.li/up-next">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:site_name" content="Up Next">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+      function toggleDropdown() {
+				var active = document.getElementById("event-active");
+				var inactive = document.getElementById("event-inactive");
+        var dropdown = document.getElementById("dropdown");
+
+        if (active.style.display === "block") {
+          dropdown.style.display = "none";
+					active.style.display = "none";
+					inactive.style.display = "block";
+        }
+				else {
+					dropdown.style.display = "block";
+					active.style.display = "block";
+					inactive.style.display = "none";
+				}
+      }
+
+			function closeDropdown() {
+				debugger;
+				var active = document.getElementById("event-active");
+				var inactive = document.getElementById("event-inactive");
+				var dropdown = document.getElementById("dropdown");
+
+				if (active.style.display === "block") {
+					dropdown.style.display = "none";
+					active.style.display = "none";
+					inactive.style.display = "block";
+				}
+			}
+    </script>
+	</head>
+	<body>
+		<main onclick="closeDropdown()">
+      <section id="container">
+        <div class="aside"></div>
+        <div class="main">
+  				<h1>Up Next</h1>
+  				<p>See your day at a glance. Integrated with Google Meet so you can join meetings with <span style="font-size:0.9em;">⌘</span>J. For MacOS 10.12 and higher.</p>
+          <p>Made by <a href="https://github.com/ellenli" target="_blank">Ellen</a> and <a href="https://github.com/ragalie" target="_blank">Mike</a>. ✌️</p>
+					<a href=""><div id="app-store"></div></a>
+					<p class="footer">Learn more about this project on <a href="https://github.com/ellenli/up-next" target="_blank">Github</a>.</p>
+      </div>
+      </section>
+		</main>
+    <div id="mac">
+      <div id="apple"></div>
+			<div id="event-inactive" onclick="toggleDropdown()" style="display:none;"></div>
+      <div id="event-active" onclick="toggleDropdown()" style="display:block;"></div>
+      <div id="utilities"></div>
+    </div>
+    <div id="dropdown"></div>
+	</body>
+</html>
