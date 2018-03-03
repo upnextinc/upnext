@@ -8,7 +8,7 @@ Install the latest version from the [App Store](). :v:
 
 ## Credits
 
-**Up Next** is written in Swift and Ruby. Branding, design, frontend and web development by @ellenli. Backend development by @ragalie.
+**Up Next** is written in Swift and Ruby. Branding, design, frontend and web development by [Ellen Li](https://github.com/ellenli). Backend development by [Mike Ragalie](https://github.com/ragalie).
 
 Up Next also uses these resources:
 - [HotKey](https://github.com/soffes/HotKey) for managing global keyboard shortcuts
