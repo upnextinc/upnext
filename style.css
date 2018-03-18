@@ -59,14 +59,14 @@ h1,h2,h3,h4 {
   text-align: left;
   z-index: 10;
 }
-a,a:active {
+a,a:active,a:focus {
   text-decoration: underline;
   -webkit-text-decoration-skip: ink;
   text-decoration-skip: ink;
   color: #000;
   outline: none;
 }
-a:hover,a:focus {
+a:hover {
   text-decoration: none;
   outline: none;
 }
@@ -108,8 +108,8 @@ main {
   height: 100%;
 }
 #app-store {
-  display: block;
-  margin-top: 70px;
+  display: inline-block;
+  margin-top: 50px;
   background-image: url(./assets/appstore.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -118,6 +118,7 @@ main {
   height: 51px;
 }
 .footer {
+  margin-top: 0.9em;
 }
 /* MacOS */
 #mac {
@@ -141,7 +142,7 @@ main {
 #event-inactive {
   position: absolute;
   top: 5px;
-  right: 340px;
+  right: 341px;
   width: 261px;
   height: 14px;
   background-image: url(./assets/event@2x.png);
@@ -150,8 +151,8 @@ main {
 #event-active, #event-inactive:hover {
   position: absolute;
   top: 0px;
-  right: 331px;
-  width: 282px;
+  right: 336px;
+  width: 274px;
   height: 22px;
   background-image: url(./assets/event-active@2x.png);
   background-size: contain;
@@ -159,20 +160,50 @@ main {
 #utilities {
   position: absolute;
   top: 3px;
-  right: 21px;
-  width: 304px;
+  right: 23px;
+  width: 306px;
   height: 16px;
   background-image: url(./assets/utilities@2x.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 #dropdown {
   position: absolute;
   top: 18px;
-  right: 293px;
+  right: 290px;
   width: 331px;
-  height: 322px;
+  height: 291px;
   background-image: url(./assets/event-dropdown@2x.png);
   background-size: contain;
   z-index: 10;
   display: block;
+}
+
+@media screen and (max-width: 580px) /* mobile */ {
+  #mac, #apple, #utilities, #event-inactive, #event-active, #dropdown {
+    display: none;
+  }
+  main {
+    max-width: 100%;
+    margin: 3em 1em 1em 1em;
+  }
+  #container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 60px auto;
+    grid-row-gap: 1.5em;
+    grid-template-areas:
+    "aside"
+    "aside"
+    "main"
+    "main";
+  }
+  #container .aside {
+    margin-top: 0px;
+    background-image: url(./assets/logo.png);
+    width: 100%;
+    height: 100%;
+  }
 }
