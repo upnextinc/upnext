@@ -2,9 +2,9 @@
 
 See your day at a glance. Integrated with [Google Meet](https://meet.google.com/) so you can quickly join meetings with `⌘J` or present to meetings with `⇧⌘J`. **Up Next** is a menu bar app for macOS 10.12+.
 
-Install the latest version from the [App Store](). :v:
+Install the latest version from the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12). :v:
 
-![image](./screenshots/toggles@2x.png)
+![image](./screenshots/show@2x.png)
 
 ## Credits
 
