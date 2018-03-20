@@ -4,7 +4,7 @@ See your day at a glance. Integrated with [Google Meet](https://meet.google.com/
 
 Install the latest version from the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12). :v:
 
-![image](./screenshots/show@2x.jpg)
+![image](./assets/up-next-demo.gif)
 
 ## Credits
 
