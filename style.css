@@ -139,7 +139,7 @@ main {
   background-image: url(./assets/apple@2x.png);
   background-size: contain;
 }
-#event-inactive {
+.event {
   position: absolute;
   top: 0px;
   right: 336px;
@@ -150,13 +150,6 @@ main {
 }
 #event-active,
 #event-inactive:hover {
-  position: absolute;
-  top: 0px;
-  right: 336px;
-  width: 274px;
-  height: 22px;
-  background-image: url(./assets/event@2x.png);
-  background-size: 100%;
   background-position: left -22px;
 }
 #utilities {
