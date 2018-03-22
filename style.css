@@ -141,21 +141,23 @@ main {
 }
 #event-inactive {
   position: absolute;
-  top: 5px;
-  right: 341px;
-  width: 261px;
-  height: 14px;
+  top: 0px;
+  right: 336px;
+  width: 274px;
+  height: 22px;
   background-image: url(./assets/event@2x.png);
-  background-size: contain;
+  background-size: 100%;
 }
-#event-active, #event-inactive:hover {
+#event-active,
+#event-inactive:hover {
   position: absolute;
   top: 0px;
   right: 336px;
   width: 274px;
   height: 22px;
-  background-image: url(./assets/event-active@2x.png);
-  background-size: contain;
+  background-image: url(./assets/event@2x.png);
+  background-size: 100%;
+  background-position: left -22px;
 }
 #utilities {
   position: absolute;
