@@ -139,35 +139,20 @@ main {
   background-image: url(./assets/apple@2x.png);
   background-size: contain;
 }
-#event-inactive {
-  position: absolute;
-  top: 5px;
-  right: 341px;
-  width: 261px;
-  height: 14px;
-  background-image: url(./assets/event@2x.png);
-  background-size: contain;
-}
-#event-active, #event-inactive:hover {
+.dropdown-toggle {
   position: absolute;
   top: 0px;
   right: 336px;
   width: 274px;
   height: 22px;
-  background-image: url(./assets/event-active@2x.png);
-  background-size: contain;
+  background-image: url(./assets/event@2x.png);
+  background-size: 100%;
 }
-#utilities {
-  position: absolute;
-  top: 3px;
-  right: 23px;
-  width: 306px;
-  height: 16px;
-  background-image: url(./assets/utilities@2x.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+.dropdown-toggle:hover,
+.dropdown.is-active .dropdown-toggle {
+  background-position: left -22px;
 }
-#dropdown {
+.dropdown-content {
   position: absolute;
   top: 18px;
   right: 290px;
@@ -176,11 +161,19 @@ main {
   background-image: url(./assets/event-dropdown@2x.png);
   background-size: contain;
   z-index: 10;
+  display: none;
+}
+.dropdown.is-active .dropdown-content {
   display: block;
 }
 
-@media screen and (max-width: 580px) /* mobile */ {
-  #mac, #apple, #utilities, #event-inactive, #event-active, #dropdown {
+@media screen and (max-width: 580px) {
+  #mac,
+  #apple,
+  #utilities,
+  #event-inactive,
+  #event-active,
+  .dropdown-content {
     display: none;
   }
   main {

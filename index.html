@@ -18,35 +18,19 @@
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css" />
     <script>
-      function toggleDropdown() {
-				var active = document.getElementById("event-active");
-				var inactive = document.getElementById("event-inactive");
-        var dropdown = document.getElementById("dropdown");
+      var dropdown;
 
-        if (active.style.display === "block") {
-          dropdown.style.display = "none";
-					active.style.display = "none";
-					inactive.style.display = "block";
-        }
-				else {
-					dropdown.style.display = "block";
-					active.style.display = "block";
-					inactive.style.display = "none";
-				}
+      document.addEventListener("DOMContentLoaded", function () {
+        dropdown = document.querySelector('.dropdown');
+      })
+
+      function toggleDropdown() {
+        dropdown && dropdown.classList.toggle('is-active');
       }
 
-			function closeDropdown() {
-				debugger;
-				var active = document.getElementById("event-active");
-				var inactive = document.getElementById("event-inactive");
-				var dropdown = document.getElementById("dropdown");
-
-				if (active.style.display === "block") {
-					dropdown.style.display = "none";
-					active.style.display = "none";
-					inactive.style.display = "block";
-				}
-			}
+      function closeDropdown() {
+        dropdown && dropdown.classList.remove('is-active');
+      }
     </script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27811032-4"></script>
 		<script>
@@ -71,10 +55,12 @@
 		</main>
     <div id="mac">
       <div id="apple"></div>
-			<div id="event-inactive" onclick="toggleDropdown()" style="display:none;"></div>
-      <div id="event-active" onclick="toggleDropdown()" style="display:block;"></div>
+      <div class="dropdown is-active">
+        <div class="dropdown-toggle" onclick="toggleDropdown()"></div>
+        <div class="dropdown-content"></div>
+      </div>
+
       <div id="utilities"></div>
     </div>
-    <div id="dropdown"></div>
 	</body>
 </html>
