@@ -55,7 +55,6 @@
 		  gtag('js', new Date());
 		  gtag('config', 'UA-27811032-4');
 		</script>
-		<script src="https://js.stripe.com/v3"></script>
 	</head>
 	<body>
 		<main onclick="closeDropdown()">
@@ -65,44 +64,10 @@
   				<h1>Up Next</h1>
   				<p>See your day at a glance. Integrated with Google Meet so you can join meetings with <span style="font-size:0.9em;">⌘</span>J. For macOS 10.12+.</p>
           <p>Free. Made by <a href="http://ellen.li" target="_blank">Ellen</a>. ✌️</p>
+
 					<a href="https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12" target="_blank"><div id="app-store"></div></a>
 
-					<p class="footer"><a href="#donate" id="checkout-button-sku_G32Dt7F2yPoSKU">Donate</a> to support future releases. ❤️</p>
-
-					<p id="error-message"></p>
-
-					<script>
-					(function() {
-					  var stripe = Stripe('pk_live_GPssSmXpoobMk8AAWV9iDmyy');
-
-					  var checkoutButton = document.getElementById('checkout-button-sku_G32Dt7F2yPoSKU');
-					  checkoutButton.addEventListener('click', function () {
-					    // When the customer clicks on the button, redirect
-					    // them to Checkout.
-					    stripe.redirectToCheckout({
-					      items: [{sku: 'sku_G32Dt7F2yPoSKU', quantity: 1}],
-
-					      // Do not rely on the redirect to the successUrl for fulfilling
-					      // purchases, customers may not always reach the success_url after
-					      // a successful payment.
-					      // Instead use one of the strategies described in
-					      // https://stripe.com/docs/payments/checkout/fulfillment
-					      successUrl: 'http://ellen.li/up-next',
-					      cancelUrl: 'http://ellen.li/up-next',
-								submitType: 'donate',
-					    })
-					    .then(function (result) {
-					      if (result.error) {
-					        // If `redirectToCheckout` fails due to a browser or network
-					        // error, display the localized error message to your customer.
-					        var displayError = document.getElementById('error-message');
-					        displayError.textContent = result.error.message;
-					      }
-					    });
-					  });
-					})();
-					</script>
-
+					<p class="footer"><a href="https://www.buymeacoffee.com/ellenli">Buy me a coffee</a> to support future releases!</p>
       </div>
       </section>
 		</main>
