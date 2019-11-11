@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Circular Std';
-  src: url('http://ellen.li/fonts/CircularStd-Bold.eot');
-  src: url('http://ellen.li/fonts/CircularStd-Bold.woff2') format('woff2'),
-       url('http://ellen.li/fonts/CircularStd-Bold.woff') format('woff'),
-       url('http://ellen.li/fonts/CircularStd-Bold.ttf') format('truetype'),
-       url('http://ellen.li/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
-       url('http://ellen.li/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('https://ellen.li/fonts/CircularStd-Bold.eot');
+  src: url('https://ellen.li/fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('https://ellen.li/fonts/CircularStd-Bold.woff') format('woff'),
+       url('https://ellen.li/fonts/CircularStd-Bold.ttf') format('truetype'),
+       url('https://ellen.li/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
+       url('https://ellen.li/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 900;
   font-style: normal;
 }
