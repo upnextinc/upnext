@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Circular Std';
-  src: url('https://ellen.li/fonts/CircularStd-Bold.eot');
-  src: url('https://ellen.li/fonts/CircularStd-Bold.woff2') format('woff2'),
-       url('https://ellen.li/fonts/CircularStd-Bold.woff') format('woff'),
-       url('https://ellen.li/fonts/CircularStd-Bold.ttf') format('truetype'),
-       url('https://ellen.li/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
-       url('https://ellen.li/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.eot');
+  src: url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.woff') format('woff'),
+       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.ttf') format('truetype'),
+       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
+       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 900;
   font-style: normal;
 }
@@ -142,8 +142,8 @@ main {
 #event-inactive {
   position: absolute;
   top: 5px;
-  right: 341px;
-  width: 261px;
+  right: 347px;
+  width: 186px;
   height: 14px;
   background-image: url(./assets/event@2x.png);
   background-size: contain;
@@ -152,7 +152,7 @@ main {
   position: absolute;
   top: 0px;
   right: 336px;
-  width: 274px;
+  width: 209px;
   height: 22px;
   background-image: url(./assets/event-active@2x.png);
   background-size: contain;
@@ -170,9 +170,9 @@ main {
 #dropdown {
   position: absolute;
   top: 18px;
-  right: 290px;
-  width: 331px;
-  height: 291px;
+  right: 238px;
+  width: 317px;
+  height: 257px;
   background-image: url(./assets/event-dropdown@2x.png);
   background-size: contain;
   z-index: 10;
