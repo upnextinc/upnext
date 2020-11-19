@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Circular Std';
-  src: url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.eot');
-  src: url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.woff2') format('woff2'),
-       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.woff') format('woff'),
-       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.ttf') format('truetype'),
-       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
-       url('https://ellen.li/includes/assets/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('https://ellen.li/fonts/CircularStd-Bold.eot');
+  src: url('https://ellen.li/fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('https://ellen.li/fonts/CircularStd-Bold.woff') format('woff'),
+       url('https://ellen.li/fonts/CircularStd-Bold.ttf') format('truetype'),
+       url('https://ellen.li/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
+       url('https://ellen.li/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 900;
   font-style: normal;
 }
@@ -35,6 +35,7 @@ html,body {
   transition: all .25s;
   height: 100%;
   overflow-y: hidden;
+  margin: 0px;
 }
 
 ::selection { /* WebKit/Blink Browsers */
