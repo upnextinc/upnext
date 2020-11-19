@@ -74,7 +74,7 @@ a:hover {
 /* Page */
 
 main {
-  margin: auto;
+  margin: 0 auto;
   max-width: 940px;
   display: grid;
   justify-items: center;
@@ -89,8 +89,8 @@ main {
   grid-template-rows: auto;
   width: 460px;
   height: 100%;
-  margin: 10em auto;
-  grid-column-gap: 5%;
+  margin: 11em auto;
+  grid-column-gap: 7%;
   grid-template-areas:
   "aside main"
   "aside main"
@@ -114,8 +114,8 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 1;
-  width: 150px;
-  height: 51px;
+  width: 200px;
+  height: 67px;
 }
 .footer {
   margin-top: 0.9em;
