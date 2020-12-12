@@ -34,7 +34,7 @@ html,body {
   -moz-transition: all .25s;
   transition: all .25s;
   height: 100%;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   margin: 0px;
 }
 

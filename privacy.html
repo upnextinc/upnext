@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Up Next - Terms of Use</title>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+		<meta name="author" content="Ellen Li" />
+		<meta property="og:title" content="Up Next - Terms of Use">
+		<meta property="og:image" content="https://ellen.li/up-next/assets/preview@2x.jpg">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:site_name" content="Up Next - Terms of Use">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+      function toggleDropdown() {
+				var active = document.getElementById("event-active");
+				var inactive = document.getElementById("event-inactive");
+        var dropdown = document.getElementById("dropdown");
+
+        if (active.style.display === "block") {
+          dropdown.style.display = "none";
+					active.style.display = "none";
+					inactive.style.display = "block";
+        }
+				else {
+					dropdown.style.display = "block";
+					active.style.display = "block";
+					inactive.style.display = "none";
+				}
+      }
+
+			function closeDropdown() {
+				// debugger;
+				var active = document.getElementById("event-active");
+				var inactive = document.getElementById("event-inactive");
+				var dropdown = document.getElementById("dropdown");
+
+				if (active.style.display === "block") {
+					dropdown.style.display = "none";
+					active.style.display = "none";
+					inactive.style.display = "block";
+				}
+			}
+    </script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27811032-4"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-27811032-4');
+		</script>
+	</head>
+	<body>
+		<main onclick="closeDropdown()">
+      <section id="container">
+        <div class="aside"></div>
+        <div class="main">
+  				<h1>Up Next</h1>
+						<strong>Privacy Policy</strong> <p>
+							Up Next built the Up Next app as
+							a Commercial app. This SERVICE is provided by
+							Up Next and is intended for use as
+							is.
+						</p> <p>
+							This page is used to inform visitors regarding our
+							policies with the collection, use, and disclosure of Personal
+							Information if anyone decided to use our Service.
+						</p> <p>
+							If you choose to use our Service, then you agree to
+							the collection and use of information in relation to this
+							policy. The Personal Information that we collect is
+							used for providing and improving the Service. We will not use or share your information with
+							anyone except as described in this Privacy Policy.
+						</p> <p>
+							The terms used in this Privacy Policy have the same meanings
+							as in our Terms and Conditions, which is accessible at
+							Up Next unless otherwise defined in this Privacy Policy.
+						</p> <p><strong>Information Collection and Use</strong></p> <p>
+							For a better experience, while using our Service, we
+							may require you to provide us with certain personally
+							identifiable information, including but not limited to calendar data. This information is used only for app functionality and is not retained or stored by Up Next.
+						</p> <!----> <p><strong>Log Data</strong></p> <p>
+							We want to inform you that whenever you
+							use our Service, in a case of an error in the app
+							we collect data and information (through third party
+							products) on your phone called Log Data. This Log Data may
+							include information such as your device Internet Protocol
+							(“IP”) address, device name, operating system version, the
+							configuration of the app when utilizing our Service,
+							the time and date of your use of the Service, and other
+							statistics. Up Next does not use cookies.
+						</p> <p><strong>Security</strong></p> <p>
+							We value your trust in providing us your
+							Personal Information, thus we are striving to use commercially
+							acceptable means of protecting it. But remember that no method
+							of transmission over the internet, or method of electronic
+							storage is 100% secure and reliable, and we cannot
+							guarantee its absolute security.
+						</p> <p><strong>Links to Other Sites</strong></p> <p>
+							This Service may contain links to other sites. If you click on
+							a third-party link, you will be directed to that site. Note
+							that these external sites are not operated by us.
+							Therefore, we strongly advise you to review the
+							Privacy Policy of these websites. We have
+							no control over and assume no responsibility for the content,
+							privacy policies, or practices of any third-party sites or
+							services.
+						</p> <p><strong>Children’s Privacy</strong></p> <p>
+							These Services do not address anyone under the age of 13.
+							We do not knowingly collect personally
+							identifiable information from children under 13. In the case
+							we discover that a child under 13 has provided
+							us with personal information, we immediately
+							delete this from our access. If you are a parent or guardian
+							and you are aware that your child has provided us with
+							personal information, please contact us so that
+							we will be able to do necessary actions.
+						</p> <p>
+							We may update our Privacy Policy from
+							time to time. Thus, you are advised to review this page
+							periodically for any changes. We will
+							notify you of any changes by posting the new Privacy Policy on
+							this page.
+						</p> <p>This policy is effective as of December 1, 2020.</p> <p>
+							If you have any questions or suggestions about our
+							Privacy Policy, do not hesitate to <a href="https://ellen.li">contact us</a>.
+						</p>
+						<p>&nbsp;</p>
+						<p class="footer"><a href="index.html">Home</a> • <a href="terms.html">Terms</a> • <a href="privacy.html">Privacy</a> • Learn more on <a href="https://github.com/ellenli/up-next">Github</a>!</p>
+
+      </div>
+      </section>
+		</main>
+    <div id="mac">
+      <div id="apple"></div>
+			<div id="event-inactive" onclick="toggleDropdown()" style="display:block;"></div>
+      <div id="event-active" onclick="toggleDropdown()" style="display:none;"></div>
+      <div id="utilities"></div>
+    </div>
+    <div id="dropdown" style="display:none;"></div>
+	</body>
+</html>
