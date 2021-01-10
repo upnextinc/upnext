@@ -37,11 +37,11 @@ If your calendar is still not showing up in Calendar, make sure your calendar ac
 
 <details>
   <summary><b>I'm getting sent to a Google Meet error page</b></summary>
-  This was fixed in Up Next version 1.0.0. Get the latest version in the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12).</details>
+  This was fixed in Up Next version 1.0.0. Get the latest version in the <a href="https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12">App Store</a>.</details>
 
 <details>
   <summary><b>Keyboard shortcuts don't work</b></summary>
-  Other apps may be using the same keyboard shortcut. You can customize shortcuts as of version 1.0.0 (Pro users only). Get the latest version in the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12).</details>
+  Other apps may be using the same keyboard shortcut. You can customize shortcuts as of version 1.0.0 (Pro users only). Get the latest version in the <a href="https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12">App Store</a>.</details>
 
 <details>
   <summary><b>The countdown time is wrong/frozen</b></summary>
@@ -49,11 +49,11 @@ If your calendar is still not showing up in Calendar, make sure your calendar ac
 
 <details>
   <summary><b>I want to purchase Up Next Pro for my company/organization</b></summary>
-Enterprise licensing/pricing is available for organizations of **1,000 users or more**. Enterprise users will receive priority support. [Reach out to learn more](mailto:me@ellen.li) or get a quote.</details>
+Enterprise licensing/pricing is available for organizations of **1,000 users or more**. Enterprise users will receive priority support. <a href="mailto:me@ellen.li">reach out to learn more</a> or get a quote.</details>
 
 <details>
   <summary><b>I want to cancel my Up Next Pro subscription</b></summary>
-Subscription and payments are facilitated by Apple. [Follow these steps](https://support.apple.com/HT202039) to cancel your Up Next Pro subscription.</details>
+Subscription and payments are facilitated by Apple. <a href="https://support.apple.com/HT202039">Follow these steps</a> to cancel your Up Next Pro subscription.</details>
 
 ## Colophon
 Up Next is a project by [Ellen Li](https://ellen.li). The app is written in Objective-C and Swift 4.0.
