@@ -1,10 +1,8 @@
 # Up Next
 
-See your day at a glance. Integrated with your calendar so you can see and join your meetings from the menu bar. Built for macOS 10.12+.
+See your day at a glance. Integrated with your calendar so you can see and join your meetings from the menu bar. Up Next works with Zoom, Google Meet, and more. All supported platforms are [listed here](https://github.com/ellenli/up-next/issues/51) (with more to come).
 
-Up Next works with Zoom, Google Meet, and more. All supported platforms are [listed here](https://github.com/ellenli/up-next/issues/51) (along with ones coming shortly).
-
-Up Next is in active development. **Get the latest version from the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12).** :v:
+Up Next is in active development. Built for macOS 10.12+. **Get the latest version from the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12).** :v:
 
 ## Setup
 
@@ -17,7 +15,7 @@ If the access prompt did not appear, or if you mis-clicked, you can fix this in 
 ## Help
 
 <details>
-  <summary><b>I don't see my preferred calendar in the calendar list</b></summary>
+  <summary><b>I don't see my preferred calendar in the calendar list</b></summary><br />
 Up Next uses data from the Calendar app. If your preferred calendar is missing from available calendars in Up Next, add your calendar to the Calendar app.
 
 1. Run Calendar – all available calendars are listed in the left `Calendars` sidebar. If your preferred calendar is missing from this list, go to step 2
@@ -45,11 +43,11 @@ If your calendar is still not showing up in Calendar, make sure your calendar ac
 
 <details>
   <summary><b>The countdown time is wrong/frozen</b></summary>
-  If you encounter this issue, please report the bug. Include your macOS version, app version, and a list of all other apps that access your calendar data (available via `System Preferences` > `Security & Privacy` > `Calendars`).</details>
+  If you encounter this issue, please report the bug. Include your macOS version, app version, and a list of all other apps that access your calendar data (available via <code>System Preferences</code> > <code>Security & Privacy</code> > <code>Calendars</code>).</details>
 
 <details>
   <summary><b>I want to purchase Up Next Pro for my company/organization</b></summary>
-Enterprise licensing/pricing is available for organizations of **1,000 users or more**. Enterprise users will receive priority support. <a href="mailto:me@ellen.li">reach out to learn more</a> or get a quote.</details>
+  Enterprise licensing/pricing is available for organizations of <strong>1,000 users or more</strong>. Enterprise users will receive priority support. <a href="mailto:me@ellen.li">Reach out to learn more</a>.</details>
 
 <details>
   <summary><b>I want to cancel my Up Next Pro subscription</b></summary>
