@@ -1,6 +1,6 @@
 # Up Next
 
-See your day at a glance. Integrated with your calendar so you can see and join your meetings from the menu bar. Up Next works with Zoom, Google Meet, and more. All supported platforms are [listed here](https://github.com/ellenli/up-next/issues/51) (with more to come).
+See and join your meetings from the menu bar. Connects with your calendar and works with Zoom, Google Meet, Cisco Webex, and more. All supported platforms are [listed here](https://github.com/ellenli/upnext/issues/51) (with more to come).
 
 Up Next is in active development. Built for macOS 10.12+. **Get the latest version from the [App Store](https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12).** :v:
 
@@ -47,11 +47,11 @@ If your calendar is still not showing up in Calendar, make sure your calendar ac
 
 <details>
   <summary><b>I want to purchase Up Next Pro for my company/organization</b></summary>
-  Enterprise licensing/pricing is available for organizations of <strong>1,000 users or more</strong>. Enterprise users will receive priority support. <a href="mailto:me@ellen.li">Reach out to learn more</a>.</details>
+  Enterprise licensing/pricing is available for organizations of <strong>50 users or more</strong>. <a href="mailto:licensing@upnextapp.com">Reach out to learn more</a>.</details>
 
 <details>
   <summary><b>I want to cancel my Up Next Pro subscription</b></summary>
-Subscription and payments are facilitated by Apple. <a href="https://support.apple.com/HT202039">Follow these steps</a> to cancel your Up Next Pro subscription.</details>
+Subscription and payments go through Apple. <a href="https://support.apple.com/HT202039">Follow these steps</a> to cancel your Up Next Pro subscription.</details>
 
 ## Colophon
 Up Next is a project by [Ellen Li](https://ellen.li). The app is written in Objective-C and Swift 4.0.
@@ -60,6 +60,6 @@ Up Next also uses:
 - [HotKey](https://github.com/soffes/HotKey) for keyboard shortcuts
 - [DateTools](https://github.com/MatthewYork/DateTools) for the countdown
 
-This repository hosts the Up Next [website](http://ellen.li/up-next/) and documentation. If you encounter any bugs or have a feature request, [add an issue](https://github.com/ellenli/up-next/issues/new) or [get in touch](https://twitter.com/ellenxli)!
+This repository hosts the Up Next [website](http://ellen.li/upnext/) and light documentation. If you encounter bugs or have a feature request, [add an issue](https://github.com/ellenli/upnext/issues/new) or [contact Ellen directly](https://twitter.com/ellenxli)!
 
 Thank you for using Up Next! :wave:
